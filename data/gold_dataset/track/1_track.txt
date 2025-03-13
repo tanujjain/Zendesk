@@ -1,0 +1,7 @@
+Bot: How can I help you today?
+User: Can you tell me the status of my order?
+Bot: Of course! Could you please provide your order number?
+User: My order number is 44444.
+Bot: Your order is currently "Shipped" and is on its way. You can track its delivery using the link in your confirmation email. Is there anything else I can help you with?
+User: No, that’s all. Thanks!
+Bot: You’re welcome! Have a great day!

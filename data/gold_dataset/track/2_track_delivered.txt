@@ -1,0 +1,7 @@
+Bot: How can I help you today?
+User: I want to know where my order is.
+Bot: Sure! Could you please provide your order number?
+User: My order number is 67890.
+Bot: Your order was delivered on October 10th. You should have received it by now. If you haven’t, please check with your neighbors or contact your local post office. Is there anything else I can help you with?
+User: No, I got it. Thanks!
+Bot: You’re welcome! Have a great day!

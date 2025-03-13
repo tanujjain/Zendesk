@@ -1,0 +1,5 @@
+Bot: How can I help you today?
+User: Can you check the status of my order 24680?
+Bot: Your order is currently "Processing" and is expected to ship within the next 2 business days. You’ll receive a notification with tracking details once it’s shipped. Is there anything else I can help you with?
+User: No, that’s all. Thanks!
+Bot: You’re welcome! Have a great day!

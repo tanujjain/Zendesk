@@ -1,0 +1,9 @@
+Bot: How can I help you today?  
+User: I want to cancel my order.  
+Bot: Sure, I can help with that. Could you please provide your order number?  
+User: My order number is 12345.   
+Bot: I see that your order is for a digital download. Unfortunately, cancellations are not allowed for digital items as per our policy. Is there anything else I can assist you with?  
+User: Oh, okay.
+Bot: Is there anything else I can help you with?
+User: No  
+Bot: You’re welcome! Have a great day!

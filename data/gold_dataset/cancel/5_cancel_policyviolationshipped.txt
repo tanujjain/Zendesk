@@ -1,0 +1,7 @@
+Bot: How can I help you today?
+User: I need to cancel my order.
+Bot: Sure, I can help with that. Could you please provide your order number?
+User: My order number is 55555.
+Bot: I see that your order has already been shipped. Unfortunately, cancellations are not allowed once the order has been shipped, as per our policy.
+User: Not great
+Bot: Sorry for the incovenience, we hope to be of more help in the future. Have a good day!

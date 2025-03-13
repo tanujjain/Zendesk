@@ -1,0 +1,9 @@
+Bot: How can I help you today?
+User: I want to track my order.
+Bot: Sure! Could you please provide your order number?
+User: 11223.
+Bot: I’m sorry, but I couldn’t find an order with that number. Could you please double-check the order number and try again?
+User: Try 11123
+Bot: Your order is currently "Shipped" and is on its way. You can track its delivery using the link in your confirmation email. Is there anything else I can help you with?
+User: Nopes
+Bot: You’re welcome! Have a great day!

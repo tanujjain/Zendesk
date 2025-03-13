@@ -1,0 +1,9 @@
+Bot: How can I help you today?
+User: I want to cancel my order.
+Bot: Sure, I can help with that. Could you please provide your order number?
+User: My order number is 11111.
+Bot: I see that your order is for fresh flowers. Unfortunately, cancellations are not allowed for perishable items as per our policy. Is there anything else I can assist you with?
+User: Oh, I see. Can you at least tell me when it will be delivered?
+Bot: Of course! Your order is out for delivery and should arrive by tomorrow. You can track its status using the link in your confirmation email. Is there anything else I can help you with?
+User: No, that’s all. Thanks!
+Bot: You’re welcome! Have a great day!

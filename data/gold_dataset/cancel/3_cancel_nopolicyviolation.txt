@@ -1,0 +1,9 @@
+Bot: How can I help you today?
+User: I need to cancel my order.
+Bot: Sure, I can help with that. Could you please provide your order number?
+User: My order number is 22222.
+Bot: Your order is currently "Pending" and was placed 3 days ago. It is eligible for cancellation. Would you like to proceed with canceling it?
+User: Yes, please cancel it.
+Bot: I’ve initiated the cancellation for order 22222. You’ll receive a confirmation email shortly, and your refund will be processed within 1-3 business days. Is there anything else I can help you with?
+User: No, that’s all. Thank you!
+Bot: You’re welcome! Have a great day!

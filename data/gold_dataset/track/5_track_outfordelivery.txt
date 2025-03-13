@@ -1,0 +1,7 @@
+Bot: How can I help you today?
+User: I want to track my order.
+Bot: Sure! Could you please provide your order number?
+User: My order number is 13579.
+Bot: Your order is out for delivery and should arrive by the end of today. You can track its real-time location using the link in your confirmation email. Is there anything else I can help you with?
+User: No, that’s all. Thank you!
+Bot: You’re welcome! Have a great day!

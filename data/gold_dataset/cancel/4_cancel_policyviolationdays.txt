@@ -1,0 +1,9 @@
+Bot: How can I help you today?
+User: I want to cancel my order.
+Bot: Sure, I can help with that. Could you please provide your order number?
+User: My order number is 33333.
+Bot: I see that your order was placed 15 days ago. Unfortunately, cancellations are only allowed within 10 days of placing the order, as per our policy. Is there anything else I can assist you with?
+User: Oh, I didn’t know that. Can you at least help me track the order?
+Bot: Of course! Your order has already been delivered. You should have received it on October 10th. If you haven’t received it, please let me know, and I’ll assist further.
+User: No, I got it. Thanks!
+Bot: You’re welcome! Have a great day!
