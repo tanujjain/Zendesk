@@ -80,8 +80,8 @@ end_conversation: Intercepts a command to end the conversation.
 Other: All other commands.
 ```
 3. Both `track_order` and `cancel_order` actions lead to an LLM call for extracting the order_id. (`order_extraction`)
-4. If the order number is provided by the user, then the bot asks for it again and again till the user supplies one.
-5. After user supplies the order number, the bot checks the order status and provides the status to the user if the lsat action was `track_order`.
+4. If the order number is not provided by the user, then the bot asks for it again and again till the user supplies one.
+5. After user supplies the order number, the bot checks the order status and provides the status to the user if the last action was `track_order`.
 6. Alternatively, if the last action was `cancel_order`, the bot checks the order status and applies the policies to check if the order can be cancelled.
 7. At any point, if the user tries to stray away from the conversation, the `Other` intent is triggered and the bot tries to get the user to either track or cancel the order.
 8. When it seems like user is done with the conversation, `end_conversation` action is triggered.
