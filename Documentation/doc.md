@@ -89,7 +89,7 @@ Other: All other commands.
 
 ### Track Order flow
 
-![Track workflow](flows/happy_track_workflow.png)
+![Track workflow](flows/happy_track_workflow.png)\
 Explanation:
 1. Other- Triggered by user saying 'hi'
 2. track_order- Triggered by user saying 'track order'. This also leads to an LLM call for extracting the order_id. (order_extraction)
@@ -98,14 +98,14 @@ Explanation:
 
 ### Cancel Order flow
 
-![Cancellation workflow](flows/happy_cancel_workflow.png)
+![Cancellation workflow](flows/happy_cancel_workflow.png)\
 Explanation:
 1. cancel_order- Triggered by user saying 'cancel my order'. This also leads to an LLM call for extracting the order_id. (order_extraction)
 2. cancel_order- Triggered by user saying '25678'. This also leads to an LLM call for extracting the order_id. (order_extraction)
 3. end_conversation- Triggered by user saying 'no'
 
 ### Mixed flow
-![Mixed workflow](flows/happy_track_track_cancel_workflow.png)
+![Mixed workflow](flows/happy_track_track_cancel_workflow.png) \
 Explanation:
 1. track_order- Triggered by user saying 'yeah track 17890'. This also leads to an LLM call for extracting the order_id. (order_extraction)
 2. track_order- Triggered by user saying 'track another one'. This also leads to an LLM call for extracting the order_id. (order_extraction)
