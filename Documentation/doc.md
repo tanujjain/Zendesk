@@ -1,4 +1,11 @@
 # Documentation of approach and results
+# Table of Contents
+- [Approach](#approach)
+- [Flows](#flows)
+- [Qualitative performance](#qualitative-performance)
+- [Quantitative performance](#quantitative-performance)
+- [Iteration on the bot](#how-to-iterate-on-the-bot-for-better-quality-responses)
+- [Conclusion and future work](#conclusion-and-future-work)
 
 ## Approach
 ### 1. Define the Policies for cancellation.
