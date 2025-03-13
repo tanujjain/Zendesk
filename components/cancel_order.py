@@ -23,7 +23,6 @@ class OrderCancellation:
     @track(name="order_cancellation")
     async def __call__(self, chat_history: List[Dict]) -> str:
         try:
-            # import pdb;pdb.set_trace()
             df_order = await self._obtain_order_records(chat_history)
             last_status = df_order.tail(1)['order_status'].values[0]
             item_type = df_order['item_type'].values[0]
