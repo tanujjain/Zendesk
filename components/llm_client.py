@@ -1,7 +1,8 @@
+from abc import ABC, abstractmethod
 import asyncio
 import os
-from openai import AsyncAzureOpenAI
 
+from openai import AsyncAzureOpenAI
 from dotenv import load_dotenv
 import opik
 from opik.integrations.openai import track_openai
@@ -10,13 +11,10 @@ opik.configure(use_local=True)
 
 load_dotenv()
 
-from abc import ABC, abstractmethod
-
 class LLMClient(ABC):
     @abstractmethod
     async def __call__(self, query: str) -> None:
         raise NotImplementedError()
-
 
 
 class AzureLLM(LLMClient):
@@ -27,7 +25,7 @@ class AzureLLM(LLMClient):
             azure_endpoint=os.getenv("AZURE_OPENAI_API_ENDPOINT"),
         ))
 
-    async def __call__(self, query: str) -> None:
+    async def __call__(self, query: str) -> str:
         chat_completion = await self.client.chat.completions.create(
             messages=[
                 {
