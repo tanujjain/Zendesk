@@ -28,7 +28,7 @@ conda activate zendesk_env
 pip install -r requirements.txt
 ```
 ### Config
-Copy the .env.sample file to .env and fill in the necessary values (Azure Openai config) .
+Copy the `.env.sample` file to `.env` and fill in the necessary values (Azure Openai config) .
 
 ```bash
 cp .env.sample .env
