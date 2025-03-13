@@ -1,0 +1,11 @@
+Given the following order cancellation policies, output some example conversations that an end user can have with a chatbot that can either track orders for the customers given order number or cancel the order keeping in mind the cancellation policies.
+Cancellation Policies:
+1. Pre-Shipment Cancellation: Cancellation is only allowed if the order status is "Pending."
+2. Time-Based Cancellation Window: If an order was placed less than 10 days ago, it is eligible for cancellation. Otherwise, cancellation is not permitted.
+3. No Cancellation for Certain Items that are perishable or digital. eg:  food, flowers, digital downloads.
+
+Show some examples that show order cancellations and some that show order tracking.
+
+Output should be of the following format:
+Bot: How can I help you today?
+User:

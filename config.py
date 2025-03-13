@@ -1,0 +1,3 @@
+ENDPOINT_ORDER_TRACKING = "http://127.0.0.1:8002/track_order"
+ENDPOINT_ORDER_CANCELLATION = "http://127.0.0.1:8002/cancel_order"
+MAX_TURNS = 8
