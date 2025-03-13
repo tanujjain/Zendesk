@@ -35,7 +35,6 @@ cp .env.sample .env
 ```
 ### Startup
 ```bash
-docker compose up --detach
 uvicorn app:app --port 8001
 ```
 Type 'y' when prompted to accept the use of Opik server.
