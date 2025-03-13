@@ -45,9 +45,7 @@ uvicorn order_endpoints:app --port 8002
 Type 'y' when prompted to accept the use of Opik server.
 
 ## Demo
-<video width="600" controls>
-  <source src="demo_zendesk_chatbot.mp4" type="video/mp4">
-</video>
+[Watch the demo here](https://github.com/tanujjain/Zendesk/blob/main/demo_zendesk_chatbot.mp4)
 
 ## Observability
 - Go to [Opik](http://http://localhost:5173/default/projects) and click on the Default project.
