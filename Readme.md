@@ -47,7 +47,7 @@ Type 'y' when prompted to accept the use of Opik server.
 ![demo_zendesk_chatbot.gif](demo_zendesk_chatbot.gif)
 
 ## Observability
-- Go to [Opik](http://http://localhost:5173/default/projects) and click on the Default project.
+- Go to [Opik](http://localhost:5173/default/projects) and click on the Default project.
 - To view traces -> Traces Tab
 - To view Metrics (Evaluation + Token usage + Duration) -> Metrics Tab
 - Detailed LLM calls -> LLM calls Tab
