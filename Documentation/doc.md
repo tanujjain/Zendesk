@@ -173,7 +173,7 @@ Bot: Your order status is Pending. Can I help you with anything else?
 ```
 3. **Turn counter**: The number of turns taken to complete the conversation. Lower is better. Intuition: Presence of long turns means that user is not able to get the desired information quickly.
 
-Response Appropriateness and Turn counter are calculated for each conversation and then averaged as can be seen in the Opik dashboard below:
+Response Appropriateness and Turn counter are calculated for each conversation and then averaged across all conversations as can be seen in the Opik dashboard below:
 ![resp_app.png](metric_figures/resp_app.png)
 The `overall_quality` in the graph is the Response Appropriateness metric.
 The `turn_counter` is the Turn counter metric.
@@ -215,6 +215,6 @@ Opik seems to have a bug when displaying AzureOpenAI costs, so had to do it via 
 - Choice of LLM- Here GPT-4o was used for all LLM calls. One could use smaller/cheaper/locally hosted models for different actions/evaluation to drive down cost and latency and improve response quality.
 - Reduction of LLM calls- Instead of explicit next action classification and order extraction, a setup can be implemented that gets next action and finds the order number in the conversation in the same prompt (possibly using function calling).
 - More comprehensive handling of 'Other' action- to reduce hallucinations when bot is asked to 'refund' or engage in other unsupported ecommerce actions.
-- Creation of a gold dataset for response appropriateness evaluation- to better tune the prompt for evaluating response appropriateness. (Smilar to what was done for next action classification)
+- Creation of a gold dataset for response appropriateness evaluation- to better tune the prompt for evaluating response appropriateness. (Similar to what was done for next action classification)
 - Addition of more test cases to ensure the bot is able to handle all edge cases and does not regress upon iteration.
 - Addition of a 'politeness' metric to evaluate how polite the bot is in its responses.
