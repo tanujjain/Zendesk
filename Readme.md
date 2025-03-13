@@ -1,6 +1,6 @@
 # Zendesk order handling chatbot
 ## Documentation
-All the explanation and performnace analysis of the bot is in the [documentation](Documentation) dir.
+All the explanation and performance analysis of the bot can be found [here](Documentation/doc.md).
 ## Setup
 
 ### Install Opik (for tracking)
